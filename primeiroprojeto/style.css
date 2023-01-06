@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fonteandroid';
+    src: url(fontes/idroid.otf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'fonteandroid2';
+    src: url(fontes/Anton-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'fonteandroid3';
+    src: url(fontes/FjallaOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+    
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+    }
+
+    a.external::after{
+        content: '\00A0\1F517';
+
+    }
+
+    header{
+    background-image: linear-gradient(360deg,#195634, #3CDB83);
+    color: white;
+    padding-top: 30px;
+    min-height: 150px;
+    }
+
+    header > h1{
+       margin-bottom: 13px;
+       margin-top: 5px;
+    }
+
+    header > p{
+        font-family: var(--fonte-padrao);
+        color: white;
+        max-width: 500px; /*Para a frase ocupar duas linhas*/
+        margin: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.212);
+        text-align: center;
+    }
+
+    
+    nav{
+        padding: 10px;
+        box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.281);
+    }
+    
+    nav > a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition-duration: 0.4s; /*Quando passar o mouse por cima terá uma transição*/
+    }
+    
+    nav > a:hover{
+        background-color: #42ec8e70;
+        color: #195634;
+    
+    }
+
+    main#conteudo{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 1px 13px rgb(0 0 0 / 51%)
+    
+
+    }
+    
+    main img{
+        width:100%
+    }
+
+    main img.pequena{
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    main > p > a{
+        text-decoration: none;
+        color: #195634;
+        font-weight: bold;
+        padding: 3px;
+        background-color: #4adb8b;
+    }
+
+    main > p > a:hover{
+        text-decoration: underline ;
+        color:#217044;
+        
+
+    }
+
+
+    strong{
+        color: #195634;
+        font-weight: bold;
+    }
+
+    h1#titulo{
+        text-align: center;
+        font-family: 'bebas', cursive;
+        font-weight: 100;
+        font-size: 50px;
+        text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.507);
+    
+        
+    }
+
+    main > p{
+        text-indent: 20px;
+        text-align: justify;
+        text-indent: 30px;
+        line-height: 2em;
+    }
+
+    h1#segundotitulo{
+        font-family: 'fonteandroid';
+        color: #195634;
+        text-indent: 8px;
+    }
+
+    h2.subtitulo{
+        font-family: 'fonteandroid';
+        color: #195634;
+        background-image: linear-gradient(90deg,#42ec8e70, rgba(255, 255, 255, 0.61));;
+        text-indent: 8px;
+       }
+
+       picture#irina{
+        text-align: center;
+       }
+
+       img{
+        text-align: center;
+       }
+
+       div.video > iframe{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+       }
+
+       div.video{
+        background-color: #195634;
+        position: relative;
+        margin-bottom: 30px;
+        margin: 0px -10px 30px -10px;
+        padding: 20px;
+        padding-bottom: 57.5%;
+       }
+
+       div#bugdroid{
+        text-align: center;
+       }
+
+       div#irina{
+        text-align: center;
+       }
+
+     main#extra{
+        background-color: #bfffdc;
+        margin: 20px;
+        border-radius: 20px;
+        padding: 10px;
+     }
+
+     div#tituloextra{
+        background-color: #1A5C38;
+        color: white;
+        margin: -10px -10px 0px -10px;
+        padding: 10px;
+        border-radius: 10px 10px 0px 0px;
+     }
+
+     ul{
+        list-style-position: inside;
+        columns: 2;
+        list-style-type: '\2714\00A0\00A0';
+     }
+
+
+
+     footer{
+        background-color: #1A5C38;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        margin: auto;
+        font-size: 15px;
+     }
+
+     footer  a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+       
+     }
+      
+   

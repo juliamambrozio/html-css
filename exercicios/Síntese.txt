@@ -1,0 +1,32 @@
+ex001: Ínicio
+ex002: Parágrafos, quebras de linhas, símbolos e emojis
+ex003: testando imagens
+ex004: colocando favicon
+ex005: emojis
+ex006: h1, h2, h3
+ex007: diferença entre html 4 e 5 e também semântica
+ex008: principais formatações de texto
+ex008b: continuação
+ex009: listas ordenadas, não ordenadas e de definições 
+ex010: Links externos, abrir em outra página ou nela mesma, links internos
+e links para downloads
+ex011: Imagens flexíveis e áudio
+ex012: Vídeos internos e externos
+ex013: Estilos Inline
+ex014: Estilos Locais / Internos
+ex015: Estilos Externos
+
+Módulo 2
+ex016: Representação de cores por nomes, hexadecimal, rgb, hsl e 
+calculando sozinho, gradiente
+ex017: Fontes, shorthand - style weight size family, alinhamento de texto
+ex018: Fontes externas copiadas com link, baixadas e uso do format
+ex019: id e class
+ex020: pseudoclasse, hover e elemento escondido
+ex020: id, class, pseudo-class, pseudo-element, children
+ex021: estudo de caixas: Box-leve e inline-level, padding, border, 
+margin e outline, site prático, bordas personalizadas
+DESAFIO: d010 > uso de variáveis, responsividade de imagens > responsividade 
+de vídeo > alinhamento de tabela e uso de outros símbolos
+
+Módulo 3
