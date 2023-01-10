@@ -30,3 +30,4 @@ DESAFIO: d010 > uso de variáveis, responsividade de imagens > responsividade
 de vídeo > alinhamento de tabela e uso de outros símbolos
 
 Módulo 3
+ex022: Uso de imagens em div's
