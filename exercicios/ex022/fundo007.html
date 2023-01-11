@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            /*O que contém é relativo*/
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: yellow;
+            
+
+        }
+        #conteudo{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            /*O conteúdo é absoluto*/
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: purple;
+
+            /*Pode usar essas duas propriedades quando usar posição absoluta*/
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%,-50%); /*Para ir pra esquerda, direita, cima, baixo utilizando números positivos e negativos*/
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
