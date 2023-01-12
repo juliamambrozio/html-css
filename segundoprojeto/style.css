@@ -37,6 +37,7 @@ header > h1{
     color: white;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.473);
     font-size: 6vh;
+    
 }
 
 header > p{
@@ -53,6 +54,16 @@ header > p >  a{
 header > p > a:hover{
     color: var(--cor4);
 
+}
+
+section{
+    padding: 30px;
+    font-size: 1.5em;
+    font-family: var(--fonte3);
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
 }
 
 section.normal{
