@@ -33,4 +33,5 @@ Módulo 3
 ex022: Uso de imagens em div's, utilização dos repeats e background-size,
 posição de imagens no background, background attachment e size, backgorund - 
 shorthand, centralizando horizontalmente e verticalmente
+ex023: Tabelas, hierarquia de tabelas
 DESAFIO: d012 > Efeito Parallax, uso de variáveis
