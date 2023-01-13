@@ -9,26 +9,47 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+
         table{
             width: 500px;
+            border-collapse: collapse;
+            /*PARA O CABEÇALHO FIXO DA TABELA (não é compátivel para todos os navegadores)*/
+            position: relative;
         }
+
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
+
+        /*PARA O CABEÇALHO FIXO DA TABELA (não é compátivel para todos os navegadores)*/
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(78, 78, 78);
+        }
+
         thead, tfoot{
             background-color: rgb(78, 78, 78);
             color: white;
         }
+
         td.num{
             text-align: right;
         }
+
+        /*EFEITO ZEBRADO*/
+        tbody > tr:nth-child(2n){ /*Essa pseudo-classe significa que vai ficar uma linha colorida e outra não, podendo ser regulado de acordo com a quantidade que você quer, tanto por números decimais ou por número ímpar (odd) ou par (even)*/
+            background-color: lightgray;
+        }
+
         caption{
             font-size: 1.3em;
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
         }
+
     </style>
 </head>
 <body>
