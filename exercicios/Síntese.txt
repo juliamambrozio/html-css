@@ -35,9 +35,9 @@ posição de imagens no background, background attachment e size, backgorund -
 shorthand, centralizando horizontalmente e verticalmente
 ex023: Tabelas, hierarquia de tabelas, anatomia de tabelas grandes, uso de 
 scope, efeito zebrado, cabeçalho fixo em tabelas, mesclagem de céculas,
-uso de colgroup (span também), tabela responsível
+uso de colgroup (span também), overflow, tabela responsível
 
 DESAFIO: d012 > Efeito Parallax, uso de variáveis
 
 Módulo 4
-ex024: Iframes
+ex024: Iframes, iframe local
