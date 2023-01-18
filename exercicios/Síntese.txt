@@ -40,4 +40,4 @@ uso de colgroup (span também), overflow, tabela responsível
 DESAFIO: d012 > Efeito Parallax, uso de variáveis
 
 Módulo 4
-ex024: Iframes, iframe local, abrindo outra página dentro do iframe
+ex024: Iframes, iframe local, abrindo outra página dentro do iframe, deixando iframe mais seguro
