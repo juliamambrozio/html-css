@@ -43,6 +43,8 @@ DESAFIO: d012 (projeto cordel) > Efeito Parallax, uso de variáveis
 Módulo 4
 ex024: Iframes, iframe local, abrindo outra página dentro do iframe, 
 deixando iframe mais seguro, utilizando iframes de diferentes formas
+ex025: formulários, para desativar sugestões na caixa de texto, action, 
+uso de label, method get e post
 
 DESAFIO: d013 (projeto redes-sociais) > mantendo a caixa sempre no meio da tela,
 uso de iframes, animações, alinhamento, escondendo o scroll
