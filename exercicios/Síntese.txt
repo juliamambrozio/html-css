@@ -26,7 +26,8 @@ ex020: pseudoclasse, hover e elemento escondido
 ex020: id, class, pseudo-class, pseudo-element, children
 ex021: estudo de caixas: Box-leve e inline-level, padding, border, 
 margin e outline, site prático, bordas personalizadas
-DESAFIO: d010 > uso de variáveis, responsividade de imagens > responsividade 
+
+DESAFIO: d010 (desafio android) > uso de variáveis, responsividade de imagens > responsividade 
 de vídeo > alinhamento de tabela e uso de outros símbolos
 
 Módulo 3
@@ -37,8 +38,11 @@ ex023: Tabelas, hierarquia de tabelas, anatomia de tabelas grandes, uso de
 scope, efeito zebrado, cabeçalho fixo em tabelas, mesclagem de céculas,
 uso de colgroup (span também), overflow, tabela responsível
 
-DESAFIO: d012 > Efeito Parallax, uso de variáveis
+DESAFIO: d012 (projeto cordel) > Efeito Parallax, uso de variáveis
 
 Módulo 4
 ex024: Iframes, iframe local, abrindo outra página dentro do iframe, 
 deixando iframe mais seguro, utilizando iframes de diferentes formas
+
+DESAFIO: d013 (projeto redes-sociais) > mantendo a caixa sempre no meio da tela,
+uso de iframes, animações, alinhamento, escondendo o scroll
