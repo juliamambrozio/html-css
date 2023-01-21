@@ -45,7 +45,9 @@ ex024: Iframes, iframe local, abrindo outra página dentro do iframe,
 deixando iframe mais seguro, utilizando iframes de diferentes formas
 ex025: formulários, para desativar sugestões na caixa de texto, action, 
 uso de label, method get e post, input: text, password, submit, reset, 
-campo obrigatório, caractes máximos e mínimos, dica dentro da caixa, autocomplete
+campo obrigatório, caractes máximos e mínimos, dica dentro da caixa, 
+autocomplete, intervalo entre números, aceitar números quebrados, já vir a 
+caixa preenchida, RegEx, fieldset e legend
 
 DESAFIO: d013 (projeto redes-sociais) > mantendo a caixa sempre no meio da tela,
 uso de iframes, animações, alinhamento, escondendo o scroll
