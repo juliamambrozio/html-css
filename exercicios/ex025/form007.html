@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+                <optgroup label="Região Sudeste"> 
+                    <!--Para aparecer uma descrição dentro da lista-->
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP" selected>São Paulo</option> 
+                    <!--selected: já vir SP selecionado-->
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <!--Para aparecer uma descrição dentro da lista-->
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+         <!--Serve se caso não tiver a sua opção nas sugestões, podendo você mesmo colocar -->
+                <label for="iprof">Profissão:</label>
+                <input type="text" name="prof" id="iprof" list="lstprof"> <!--list: para aparecer a lista lst prof da datalist-->
+                <datalist id="lstprof">
+                    <option value="ADM">Administração</option>
+                    <option value="DS">Desenvolvimento de Sistemas</option>
+                    <option value="INFO">Informática</option>
+                    <option value="MECA">Mecatrônica</option>
+                </datalist>
+            
+        <p>
+
+            <p>
+                <label for="imsg">Mensagem:</label><br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea> <!--É bom usar essa opção com o method post-->
+            </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+</body>
+</html>

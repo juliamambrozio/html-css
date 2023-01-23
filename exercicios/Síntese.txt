@@ -47,7 +47,9 @@ ex025: formulários, para desativar sugestões na caixa de texto, action,
 uso de label, method get e post, campo obrigatório, caractes máximos e mínimos, dica dentro da caixa, 
 autocomplete, intervalo entre números, aceitar números quebrados, já vir a 
 caixa preenchida, RegEx, fieldset e legend, caixa de cor, arrastar barrinha, 
-carregar foto
+carregar foto, listas (select, option e optgroup), listas que podem ser 
+acrescentado elementos (input text, datalist, option) e caixa 
+de mensagem (textarea)
 input: text, password, submit, reset, number, month, date, time, email, 
 telefone radio, checkbox, color, range, file
 
