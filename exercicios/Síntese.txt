@@ -46,8 +46,10 @@ deixando iframe mais seguro, utilizando iframes de diferentes formas
 ex025: formulários, para desativar sugestões na caixa de texto, action, 
 uso de label, method get e post, campo obrigatório, caractes máximos e mínimos, dica dentro da caixa, 
 autocomplete, intervalo entre números, aceitar números quebrados, já vir a 
-caixa preenchida, RegEx, fieldset e legend
-input: text, password, submit, reset, number, month, date, time, email, telefone radio, checkbox
+caixa preenchida, RegEx, fieldset e legend, caixa de cor, arrastar barrinha, 
+carregar foto
+input: text, password, submit, reset, number, month, date, time, email, 
+telefone radio, checkbox, color, range, file
 
 DESAFIO: d013 (projeto redes-sociais) > mantendo a caixa sempre no meio da tela,
 uso de iframes, animações, alinhamento, escondendo o scroll
