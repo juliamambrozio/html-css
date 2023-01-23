@@ -50,6 +50,7 @@ caixa preenchida, RegEx, fieldset e legend, caixa de cor, arrastar barrinha,
 carregar foto, listas (select, option e optgroup), listas que podem ser 
 acrescentado elementos (input text, datalist, option) e caixa 
 de mensagem (textarea)
+output (usando script): para calular números, mexer na barra e calcular idade
 input: text, password, submit, reset, number, month, date, time, email, 
 telefone radio, checkbox, color, range, file
 
