@@ -54,7 +54,7 @@ output (usando script): para calular números, mexer na barra e calcular idade
 input: text, password, submit, reset, number, month, date, time, email, 
 telefone radio, checkbox, color, range, file
 ex026: Media Queries > media type para tela e impressora, tela retrato e 
-paisagem (media type e feature)
+paisagem (media type e feature), colocando todas as medias juntas
 
 DESAFIO: d013 (projeto redes-sociais) > mantendo a caixa sempre no meio da tela,
 uso de iframes, animações, alinhamento, escondendo o scroll
