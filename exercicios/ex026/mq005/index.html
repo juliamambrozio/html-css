@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 
     <!--Colocar o ícone de menu-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+
+<body  onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
 
@@ -37,15 +40,31 @@
         </article>
     </main>
 
-                    <!--JS para o Menu-->
+                    <!--JS-->
+    <!--mudouTamanho= forçar o menu hambúrger irá sumir    
+        de acordo com o tamanho da tela
+        clickMenu= Menu hambúrger-->
     <script>
         function clickMenu(){
             if (itens.style.display == 'block'){
                 itens.style.display = 'none'
-            }else{
+            } else{
                 itens.style.display = 'block'
             }
         }
+
+        function mudouTamanho(){
+            if (window.innerwidth >= 768){
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
     </script>
+
+    <!--
+        == > Igual
+        = > Recebe
+    -->
 </body>
 </html>

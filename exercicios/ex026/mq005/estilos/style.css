@@ -51,7 +51,7 @@ menu > ul > li > a{
     text-align: center;
     background-color: rgb(100, 100, 100);
     color: white;
-    border-top: 2px solid rgb(196, 196, 196);
+    border-top: 2px solid rgb(87, 87, 87);
 }
 
 menu > ul > li > a:hover{
