@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+
+    <!--Colocar o ícone de menu-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+
+        <!--Colocar o ícone de menu e o JS-->
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens"> <!--id para o JS-->
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -28,8 +34,18 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione quia nostrum distinctio in, tempore quam nemo alias modi similique tenetur accusamus at omnis? Mollitia quod quis blanditiis eum tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus non obcaecati quisquam natus architecto libero ipsum doloribus pariatur! Odit corporis adipisci ipsum sit dolore fuga cumque a aut quasi. Modi.</p>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione quia nostrum distinctio in, tempore quam nemo alias modi similique tenetur accusamus at omnis? Mollitia quod quis blanditiis eum tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus non obcaecati quisquam natus architecto libero ipsum doloribus pariatur! Odit corporis adipisci ipsum sit dolore fuga cumque a aut quasi. Modi.</p>
-
         </article>
     </main>
+
+                    <!--JS para o Menu-->
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

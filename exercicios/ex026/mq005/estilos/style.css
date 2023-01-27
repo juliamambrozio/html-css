@@ -20,10 +20,26 @@ header > h1{
     text-align: center;
 }
 
-menu{
+/*Configurando o menu*/
+i#burger{
+    background-color: rgb(54, 54, 54);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;/*Quando passar o mouse o cursor vai mudar*/
 }
 
+i#burger:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
+}
+
+/*----------------------------------*/
 menu > ul{
     list-style-type: none;
 }
