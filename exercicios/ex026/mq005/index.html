@@ -44,23 +44,24 @@
     <!--mudouTamanho= forçar o menu hambúrger irá sumir    
         de acordo com o tamanho da tela
         clickMenu= Menu hambúrger-->
-    <script>
-        function clickMenu(){
-            if (itens.style.display == 'block'){
-                itens.style.display = 'none'
-            } else{
-                itens.style.display = 'block'
-            }
-        }
+        <script>
 
-        function mudouTamanho(){
-            if (window.innerwidth >= 768){
-                itens.style.display = 'block'
-            } else{
-                itens.style.display = 'none'
+            function mudouTamanho() {
+                if (window.innerWidth >= 768) {
+                    itens.style.display = 'block'
+                } else {
+                    itens.style.display = 'none'
+                }
             }
-        }
-    </script>
+    
+            function clickMenu() {
+                if (itens.style.display == 'block') {
+                    itens.style.display = 'none'
+                } else {
+                    itens.style.display = 'block'
+                }
+            }
+        </script>
 
     <!--
         == > Igual

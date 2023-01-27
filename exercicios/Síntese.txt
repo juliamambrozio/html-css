@@ -62,4 +62,4 @@ DESAFIO: d013 (projeto redes-sociais) > mantendo a caixa sempre no meio da tela,
 uso de iframes, animações, alinhamento, escondendo o scroll
 DESAFIO: mq004 (projeto Mobile First) > media queries > Device Breakpoints, 
 display none block
-DESAFIO: mq005 (projeto) > menu hambúerguer
+DESAFIO: mq005 (projeto) > menu hambúerguer, media queries
