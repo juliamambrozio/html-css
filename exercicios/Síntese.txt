@@ -63,3 +63,6 @@ uso de iframes, animações, alinhamento, escondendo o scroll
 DESAFIO: mq004 (projeto Mobile First) > media queries > Device Breakpoints, 
 display none block
 DESAFIO: mq005 (projeto) > menu hambúerguer, media queries
+DESAFIO: d014 (tela-login) > media queries, animação de transição de uma tela 
+para outra, tag float, editando o input, ícones do google, uso de calc,
+focus:within
