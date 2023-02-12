@@ -4,3 +4,4 @@ Projeto GOOGLE GLASS
 - wbr e &shy; (Para quebra de palavras)
 - code, pre
 - figure e figcaption (Legenda de fotos)
+- efeito de texto sobre a imagem utilizando hover e opacity
