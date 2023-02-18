@@ -9,3 +9,4 @@ Projeto GOOGLE GLASS
 - configuração de menu
 - uso das posições e display
 - alinhamento central com margin
+- fontes
