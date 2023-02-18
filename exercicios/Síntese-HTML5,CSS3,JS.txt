@@ -5,3 +5,7 @@ Projeto GOOGLE GLASS
 - code, pre
 - figure e figcaption (Legenda de fotos)
 - efeito de texto sobre a imagem utilizando hover e opacity
+- tabelas
+- configuração de menu
+- uso das posições e display
+- alinhamento central com margin
