@@ -10,3 +10,6 @@ Projeto GOOGLE GLASS
 - uso das posições e display
 - alinhamento central com margin
 - fontes
+- divisão do conteúdo
+- tag clear: both - para mostrar o conteúdo  fora da divisão0
+- utilizando o border para criar linhas de divisão
