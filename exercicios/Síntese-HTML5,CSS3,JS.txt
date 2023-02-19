@@ -11,5 +11,5 @@ Projeto GOOGLE GLASS
 - alinhamento central com margin
 - fontes
 - divisão do conteúdo
-- tag clear: both - para mostrar o conteúdo  fora da divisão0
+- tag clear: both - para mostrar o conteúdo  fora da divisão
 - utilizando o border para criar linhas de divisão
