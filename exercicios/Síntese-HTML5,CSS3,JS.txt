@@ -14,3 +14,5 @@ Projeto GOOGLE GLASS
 - tag clear: both - para mostrar o conteúdo  fora da divisão
 - utilizando o border para criar linhas de divisão
 - tabela, rowspan ou colspan
+
+TesteJS: mostrar alerta, escrita na tela e data
