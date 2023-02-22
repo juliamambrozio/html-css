@@ -16,6 +16,7 @@ Projeto GOOGLE GLASS
 - tabela, rowspan ou colspan
 - mudando imagens do menu com JS
 - linkando JS
+- Uso de iframes
 
 TesteJS01: mostrar alerta, escrita na tela e data
 TesteJS02: efeito da lâmpada
