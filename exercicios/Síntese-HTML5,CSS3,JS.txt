@@ -17,3 +17,4 @@ Projeto GOOGLE GLASS
 
 TesteJS01: mostrar alerta, escrita na tela e data
 TesteJS02: efeito da lâmpada
+TesteJS03: efeito lâmpada com código menor
