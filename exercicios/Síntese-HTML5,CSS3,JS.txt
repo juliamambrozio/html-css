@@ -18,6 +18,7 @@ Projeto GOOGLE GLASS
 - linkando JS
 - Uso de iframes
 - coordenadas em imagens, localizar no iframe a região da imagem
+- efeito de apliação de imagens
 
 TesteJS01: mostrar alerta, escrita na tela e data
 TesteJS02: efeito da lâmpada
