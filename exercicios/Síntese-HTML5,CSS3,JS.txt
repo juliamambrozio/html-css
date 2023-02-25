@@ -22,6 +22,7 @@ Projeto GOOGLE GLASS
 - vídeo e aúdio
 - posicionando vídeo e áudio
 - formulários (todos os componentes)
+- calcular valores com JS
 
 TesteJS01: mostrar alerta, escrita na tela e data
 TesteJS02: efeito da lâmpada
